@@ -1,3 +1,4 @@
+
 .primary-overlay {
   background: rgba(112, 81, 176, 0.7);
   position: absolute;
@@ -83,4 +84,21 @@
   .section-podcast {
     min-height: 240px;
   }
+}
+.container2 {
+  justify-content: center;
+  text-align: center;
+}    
+.btn {
+  border-color: black;
+  font-weight: 700;
+  border-radius: 300px;
+  color: #226666;
+  text-transform: uppercase;
+}
+.buffer {
+  height: 5rem;
+}
+.buffer2 {
+  height: 2rem;
 }
