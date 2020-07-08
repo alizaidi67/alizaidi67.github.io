@@ -102,3 +102,6 @@
 .buffer2 {
   height: 2rem;
 }
+hr {
+  border-color: purple;
+}
