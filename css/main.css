@@ -1,3 +1,4 @@
+
 .primary-overlay {
   background: rgba(112, 81, 176, 0.7);
   position: absolute;
@@ -27,7 +28,11 @@
   min-height: 350px;
   color: #fff;
 }
-
+.card-panel:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22);
+    
+}
 .main-header-inner .showcase {
   padding-top: 50px;
 }
@@ -83,4 +88,21 @@
   .section-podcast {
     min-height: 240px;
   }
+}
+.container2 {
+  justify-content: center;
+  text-align: center;
+}    
+.btn {
+  border-color: black;
+  font-weight: 700;
+  border-radius: 300px;
+  color: #226666;
+  text-transform: uppercase;
+}
+.buffer {
+  height: 5rem;
+}
+.buffer2 {
+  height: 2rem;
 }
