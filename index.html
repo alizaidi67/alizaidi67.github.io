@@ -5,9 +5,12 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+  <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
+   <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -100,9 +103,15 @@
         <div class = "container2">
           <section class = "text-center col-12">
           <input type="text" id="company">
-          <label for="search-bar"></label>
-          <a href =""><button type="button" class="btn btn-warning">Search</button></a>
-        </section>
+     
+    <!-- google maps javascript -->
+     <body ng-controller="MapCtrl">
+    <ion-content>
+      <div id="map" data-tap-disabled="true"></div>
+    </ion-content>
+    <ion-footer-bar class="bar-dark">
+      <a ng-click="centerOnMe()" class="button button-icon icon ion-navigate">Find Me</a>
+    </ion-footer-bar>
         </div><br>  
       </header>
       <div class = "buffer2 col 12"></div>
@@ -361,6 +370,7 @@
   </div>
 
   <!--Import jQuery before materialize.js-->
+  <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
